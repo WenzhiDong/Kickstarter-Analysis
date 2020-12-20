@@ -14,16 +14,19 @@ There are about 3800 records in the crowdfunding data.
 First, the 'Category and Subcategory' column is separated into two columns, 'Parent category' and ' Subcategory'
 The 'launch_at' column is converted to readable format, then a 'years' column is created
 After done the work above, the data looks like below:
+
 ![data_overview](resources/screenshot1.png)
 
 ### Analysis of Outcomes Based on Launch Date
 
 In order to analyze 'theater' crowdfunding outcomes by Launch date, A pivot table is created with filters to filter the data by 'years' and 'Parent Category', then group the column by months. The table looks like below:
+
 ![pivot table](resources/screenshot2.png)
 
 ### Analysis of Outcomes Based on Goals
 
 In order to analyze outcomes based on goals, 12 goal ranges were set and in each ranges, use 'countifs' function in Excel to get the numbers of successful campaigns, failed campaigns and canceled campaigns in Subcategory 'plays'. Then, Their percentages were calculated.
+
 ![pivot table](resources/screenshot3.png)
 
 ### Challenges and Difficulties Encountered
@@ -36,11 +39,13 @@ Separating 'Category and Subcategory' can be difficult. I didn't know how to do 
 
 1. The amount of crowdfunding campaigns on May and June are the largest
 2. The amount of successful campaigns is always larger than the amount of failed and canceled campaigns
+
 ![Outcomes Based on Launch Date](resources/Theater_Outcomes_vs_Launch.png)
 
 - What can you conclude about the Outcomes based on Goals?
 
 The larger the goal money is, the more possibility of failure is
+
 ![Outcomes Based on Goals](resources/Outcomes_vs_Goals.png)
 
 - What are some limitations of this dataset?
