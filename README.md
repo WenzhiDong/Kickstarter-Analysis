@@ -11,7 +11,7 @@ Help Louis to analyze the factors that would make crowdfunding campaigns success
 
 ### Overview of the analysis
 There are about 3800 records in the crowdfunding data.
-First, the 'Category and Subcategory' column is separated into two columns, 'Parent category' and ' Subcategory'
+First, the 'Category and Subcategory' column is separated into two columns, 'Parent category' and ' Subcategory'.
 The 'launch_at' column is converted to readable format, then a 'years' column is created
 After done the work above, the data looks like below:
 
